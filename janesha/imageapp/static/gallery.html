@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            Interactive Image Gallery
+        </title>
+        <link rel="stylesheet" href="gallery.css">
+    </head>
+    <body>
+        <h1>My Gallery</h1>
+        <h2>Janesha S (25018817)</h2>
+        <br><br><br><br><br><br><br>
+        <div class="gallery">
+            <div class="photos">
+                <img src="me.png" >
+                <h3>Me!</h3>
+            </div>
+            <div class="photos">
+                <img src="mdu.jpg">
+                <h3>My Home</h3>
+            </div>
+            <div class="photos">
+                <img src="food.jpg">
+                <h3>Fav Food</h3>
+            </div>
+            <div class="photos">
+                <img src="school.jpg">
+                <h3>My School</h3>
+            </div>
+            <div class="photos">
+                <img id="Image" src="clg.jpg" onmouseover="highlight()" onmouseout="removehighlight()">
+                <h3>My College</h3>
+            </div>
+        </div>
+        <script type="text/javascript" src="gallery.js"></script>
+    </body>
+</html>
